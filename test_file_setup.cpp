@@ -16,9 +16,9 @@
 #include "test_file_setup.h"
 
 /* ------------------------ Global data --------------------------------------- */
-static CellContent my[FIELDSIZE][FIELDSIZE] = MY_FIELD;
+CellContent my[FIELDSIZE][FIELDSIZE] = MY_FIELD;
 
-static CellContent op[FIELDSIZE][FIELDSIZE] = OPPONENT_FIELD;
+CellContent op[FIELDSIZE][FIELDSIZE] = OPPONENT_FIELD;
 
 
 /* -------------------- Private function prototypes -------------------------- */
